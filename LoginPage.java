@@ -26,6 +26,7 @@ public class LoginPage {
 	
 	public void typePass(String p){
 		password.sendKeys(p);
+		loginbutton.click();
 	}
 	
 	public void login(){
